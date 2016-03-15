@@ -6,6 +6,12 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('home', {path: '/'});
+  this.route('training');
+  this.route('free-pairing');
+  this.route('faq');
+  this.route('contact');
+  this.route('global-ember-meetup');
 });
 
 export default Router;

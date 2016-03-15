@@ -1,3 +1,31 @@
-<h2 id="title">Welcome to Ember</h2>
+<nav>
+  <div class="nav-wrapper main-nav">
+    <a href="#!" class="brand-logo">EmberSherpa</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li>{{#link-to 'home'}}Home{{/link-to}}</li>
+      <li>{{#link-to 'training'}}Training{{/link-to}}</li>
+      <li>{{#link-to 'free-pairing'}}Free Pairing{{/link-to}}</li>
+      <li>{{#link-to 'global-ember-meetup'}}Global Ember Meetup{{/link-to}}</li>
+      <li>{{#link-to 'faq'}}FAQ{{/link-to}}</li>
+      <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      <li>{{#link-to 'home'}}Home{{/link-to}}</li>
+      <li>{{#link-to 'training'}}Training{{/link-to}}</li>
+      <li>{{#link-to 'free-pairing'}}Free Pairing{{/link-to}}</li>
+      <li>{{#link-to 'global-ember-meetup'}}Global Ember Meetup{{/link-to}}</li>
+      <li>{{#link-to 'faq'}}FAQ{{/link-to}}</li>
+      <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
+    </ul>
+  </div>
+</nav>
 
-{{outlet}}
+  {{outlet}}
+
+<div class="footer-container">
+  {{general-footer}}
+</div>
+
+{{!-- ember-cli-materialize modal container --}}
+{{md-modal-container}}

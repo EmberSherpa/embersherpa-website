@@ -1,0 +1,138 @@
+@import 'materialize';
+@import 'ember-cli-materialize';
+
+.background-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fafafa;
+}
+
+.component-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: none;
+}
+
+.main-nav {
+  background: #fff;
+}
+
+.main-nav a {
+  color: black;
+}
+
+.general-container {
+  min-height: 450px
+}
+
+.hero-static {
+  position: relative;
+}
+
+.hero-static img {
+  height: 100%;
+  width: 100%;
+}
+
+.hero-static h3 {
+  font-weight: 600;
+  color: white;
+   position: absolute;
+   top: 400px;
+   left: 100px;
+   width: 100%;
+}
+
+.mentoring-process {
+  padding: 50px;
+  text-align: center;
+}
+
+.client-list {
+  margin-top: 15px;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.client-list h5 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.mission {
+  margin-top: 15px;
+  height: 200px;
+}
+
+.partners {
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.partners h5 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.partners p {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.partners img {
+  height: auto;
+  width: auto;
+  padding-left: 10px;
+}
+
+.why-us {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.testimonials-container {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.testimonials-container h5 {
+  padding-bottom: 15px;
+}
+
+.testimonials-container p {
+  padding-bottom: 15px;
+}
+
+.general-footer {
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 150px;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.trainings-page {
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 50px;
+}
+
+.trainings-page h5 {
+  margin-bottom: 30px;
+}
+
+.trainings-page p {
+  margin-bottom: 30px;
+}
